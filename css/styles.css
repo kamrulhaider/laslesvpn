@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+}
+p {
+  color: #4f5665;
+}
+.my-nav li a {
+  text-decoration: none;
+  color: #4f5665;
+  margin-left: 20px;
+}
+.my-nav li a:hover {
+  color: #f53855;
+}
+.sign-in:hover {
+  color: #f53855;
+}
+.sign-up {
+  color: #f53855;
+  transition: all 0.4s ease-in-out;
+}
+.sign-up:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.banner {
+  min-height: 540px;
+}
+.banner-txt {
+  font-weight: 500;
+}
+.lasles-btn {
+  background-color: #f53838;
+  border: none;
+  padding: 17px 70px;
+  border-radius: 10px;
+  color: #ffffff;
+  box-shadow: 0px 30px 30px #d3777781;
+  transition: all 0.3s ease-in-out;
+}
+.lasles-btn:hover {
+  background-color: #ffffff;
+  color: #f53855;
+  box-shadow: 0px 0px 18px #000000;
+}
+.users-info {
+  height: 55px;
+}
+.icon-bg {
+  background-color: #ffecec;
+  height: 55px;
+  width: 55px;
+}
+.fas {
+  font-size: 24px;
+  color: #f53838;
+}
+.plan-card {
+  height: 750px;
+  border-radius: 10px;
+  transition: all 0.4s ease-out;
+}
+.plan-card:hover,
+.clients-card:hover {
+  border: 1px solid #f53855;
+}
+.partner-img {
+  width: 190px;
+  opacity: 50%;
+  filter: grayscale(100%);
+  transition: all 0.4s ease-in-out;
+}
+.partner-img:hover {
+  opacity: 100%;
+  filter: none;
+}
+.clients-card {
+  height: 230px;
+}
+.fa-star {
+  color: #fea250;
+}
+.custom-indicator button {
+  border: none;
+  background-color: transparent;
+}
+.pre-next-icon {
+  border: none;
+  background-color: transparent;
+}
+.pre-next-icon > i {
+  border: 1px solid #f53838;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding-top: 30%;
+  transition: all 0.4s ease-in-out;
+}
+.pre-next-icon > i:hover {
+  background-color: #f53838;
+  color: #ffffff;
+}
+.social a {
+  text-decoration: none;
+  color: #f53855;
+}
+.social div {
+  height: 35px;
+  width: 35px;
+  box-shadow: 0px 0px 10px #000000;
+  border-radius: 100%;
+  transition: all 0.5s ease-in;
+}
+.social div:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
